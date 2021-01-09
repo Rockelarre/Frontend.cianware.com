@@ -1,0 +1,281 @@
+
+.gal-nav{
+    display: none !important;
+}
+.gal-1-titulo{
+    color: #111111;
+    font-weight: 100;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .galeria_1{
+        background: white;
+        height:1450px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .gal-1-titulo{
+        position: relative;
+        top:130px;
+        width:80%;
+        font-size: 0.6em;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hr-1{
+        width: 35px;
+        transform: rotate(90deg);
+    }
+    .galt-1{
+        width: 100%;
+        color:gray;
+        margin-top:3em;
+        text-align: center;
+    }
+    .galt-2{
+        font-size: 3.5em;
+        margin-top:0;
+        margin-bottom: 0.4em;
+        text-align: center;
+    }
+    .galt-3{
+        color:gray;
+        text-align: center;
+    }
+    
+    .gal-nav-0{
+        width:100%;
+        height:100px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        position: relative;
+        top:170px;
+    }
+    .gal-nav{
+        width:80%;
+        height:100%;
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+        color:gray;
+    }
+    .gal-nav li{
+        margin:0.9em;
+    }
+    .gal-btn{
+        
+        all:unset;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .gal-fotos{
+        position: relative;
+        top:200px;
+        width:80%;
+    
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .gal-fot-1{
+        width:32.5%;
+        height: 280px;
+        object-fit: cover;
+        margin-bottom: 1em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .galeria_1{
+        background: white;
+        height:1450px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .gal-1-titulo{
+        position: relative;
+        top:130px;
+        width:80%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hr-1{
+        width: 35px;
+        transform: rotate(90deg);
+    }
+    .galt-1{
+        width: 100%;
+        color:gray;
+        margin-top:3em;
+        text-align: center;
+    }
+    .galt-2{
+        font-size: 3.5em;
+        margin-top:0;
+        margin-bottom: 0.4em;
+        text-align: center;
+    }
+    .galt-3{
+        color:gray;
+        text-align: center;
+    }
+    
+    .gal-nav-0{
+        width:100%;
+        height:100px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        position: relative;
+        top:170px;
+    }
+    .gal-nav{
+        width:80%;
+        height:100%;
+        list-style: none;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+        color:gray;
+    }
+    .gal-nav li{
+        margin:0.9em;
+    }
+    .gal-btn{
+        
+        all:unset;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .gal-fotos{
+        position: relative;
+        top:200px;
+        width:80%;
+    
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .gal-fot-1{
+        width:32.5%;
+        height: 280px;
+        object-fit: cover;
+        margin-bottom: 1em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .galeria_1{
+        background: white;
+        height:1800px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .gal-1-titulo{
+        position: relative;
+        top:130px;
+        width:60%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hr-1{
+        width: 35px;
+        transform: rotate(90deg);
+    }
+    .galt-1{
+        color:gray;
+        margin-top:3em;
+    }
+    .galt-2{
+        font-size: 3.5em;
+        margin-top:0;
+        margin-bottom: 0.4em;
+    }
+    .galt-3{
+        color:gray;
+    }
+    .gal-nav-0{
+        width:100%;
+        height:50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        position: relative;
+        top:170px;
+    }
+    .gal-nav{
+    
+        width:40%;
+        height:100%;
+        list-style: none;
+        display:flex;
+        justify-content: space-around;
+    
+        color:gray;
+    }
+    .gal-nav li{
+        margin: 0 1.1em 0 1.1em;
+    }
+    .gal-btn{
+        all:unset;
+        cursor: pointer;
+        font-size: 0.8em;
+    }
+    .gal-fotos{
+        position: relative;
+        top:200px;
+        width:80%;
+    
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .gal-fot-1{
+        width:32.5%;
+        height: 280px;
+        object-fit: cover;
+        margin-bottom: 1em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

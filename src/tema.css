@@ -1,0 +1,124 @@
+.tema{
+    letter-spacing: 0.2em;
+}
+.t-1-titulo{
+    font-size: 4em;
+    letter-spacing: 0.5em;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {} 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .tema{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        color:white;
+    }
+    .t-1-titulo{
+        font-size: 2em;
+        letter-spacing: 0.2em;
+    }
+    .t-1-titulo-2{
+        letter-spacing: 0.1em;
+    }
+    .t-1-texto{
+        letter-spacing: normal;
+    }
+    .rs{
+        position: relative;
+        top:30px;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rs-icon{
+        width:1.5em;
+        height:1.5em;
+        fill:white;
+    }
+    .t-1-texto{
+        font-size: 0.9em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .tema{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        color:white;
+    }
+    .t-1-titulo{
+        font-size: 2.5em;
+        letter-spacing: 0.3em;
+    }
+    .t-1-titulo-2{
+        letter-spacing: 0.2em;
+    }
+    .t-1-texto{
+        letter-spacing: normal;
+    }
+    .rs{
+        position: relative;
+        top:30px;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rs-icon{
+        width:1.5em;
+        height:1.5em;
+        fill:white;
+    }
+    .t-1-texto{
+        font-size: 0.9em;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .tema{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        color:white;
+    }
+    
+    .rs{
+        position: relative;
+        top:30px;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rs-icon{
+        width:1.5em;
+        height:1.5em;
+        fill:white;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

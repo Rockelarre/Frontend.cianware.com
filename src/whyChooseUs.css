@@ -1,0 +1,285 @@
+.whyChooseUs-1{
+    letter-spacing: 0.2em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .whyChooseUs{
+        background:#111111;
+        height:550px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .whyChooseUs-1{
+        width: 100%;
+        height: 30%;
+        color:white;
+        font-size: 0.9em;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .wCh-1{
+        
+    }
+    .whyChooseUs-20{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+    }
+    .whyChooseUs-21{
+        background: #111111;
+        width: 10%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+        z-index: 1;
+    }
+    .whyChooseUs-22-front{
+        /*background: blue;*/
+        width: 80%;
+        height: 100%;
+    
+        z-index: 1;
+    }
+    .whyChooseUs-22-back{
+        /*background: blue;*/
+        width: 400%;
+        height: 0px;
+        position: absolute;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+        z-index: 0;
+    }  
+    .whyChooseUs-23{
+        background: #111111;
+        width: 10%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+    }
+    .icon-chevron{
+        width: 2em;
+        height: 2em;
+        fill:white;
+        cursor:pointer;
+    }
+    .btn-chevron{
+        all:unset;
+        position: relative;
+        top: -30px;
+        cursor:pointer;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:990px) {
+    .whyChooseUs{
+        background:#111111;
+        height:700px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .whyChooseUs-1{
+        width: 100%;
+        height: 30%;
+        color:white;
+        font-size: 1.1em;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .wCh-1{
+        
+    }
+    .whyChooseUs-20{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+    }
+    .whyChooseUs-21{
+        background: #111111;
+        width: 10%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+        z-index: 1;
+    }
+    .whyChooseUs-22-front{
+        /*background: blue;*/
+        width: 80%;
+        height: 100%;
+    
+        z-index: 1;
+    }
+    .whyChooseUs-22-back{
+        /*background: blue;*/
+        width: 400%;
+        height: 0px;
+        position: absolute;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+        z-index: 0;
+    }  
+    .whyChooseUs-23{
+        background: #111111;
+        width: 10%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+    }
+    .icon-chevron{
+        width: 3em;
+        height: 3em;
+        fill:white;
+        cursor:pointer;
+    }
+    .btn-chevron{
+        all:unset;
+        position: relative;
+        top: -30px;
+        cursor:pointer;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .whyChooseUs{
+        background:#111111;
+        height:600px;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .whyChooseUs-1{
+        width: 100%;
+        height: 30%;
+        color:white;
+        font-size: 1.2em;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wCh-1{
+        position: relative;
+        top:50px;
+    }
+    .whyChooseUs-20{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+    }
+    .whyChooseUs-21{
+        background: #111111;
+        width: 10%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    
+        z-index: 1;
+    }
+    .whyChooseUs-22-front{
+        /*background: blue;*/
+        width: 80%;
+        height: 100%;
+    
+        z-index: 1;
+    }
+    .whyChooseUs-22-back{
+        /*background: blue;*/
+        width: 130%;
+        height: 70%;
+        position: absolute;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+        z-index: 0;
+    }  
+    .whyChooseUs-23{
+        background: #111111;
+        width: 10%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+    }
+    .icon-chevron{
+        width: 2em;
+        height: 2em;
+        fill:white;
+        cursor:pointer;
+    }
+    .btn-chevron{
+        all:unset;
+        position: relative;
+        top: -30px;
+        cursor:pointer;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,239 @@
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {} 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cuatroElemenResp{
+        height: 1400px;
+        background: white;
+    
+        display:flex;
+        flex-direction: column;
+    }
+    .cer-img-1{
+    
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .cer-txt-0{
+        width:100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cer-txt-1{
+        width:80%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .cer-txt-1b{
+        width:70%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .cer-txt-1{
+        color:gray;
+    }
+    .cer-txt-2{
+        font-size: 1.8em;
+        margin-top:0;
+        margin-bottom: 0em;
+        color:#111111;
+    }
+    .cer-txt-3{
+        font-size: 2em;
+        margin-top:0;
+        margin-bottom: 0.2em;
+        color:#111111;
+        line-height: 0.8;
+    }
+    .cer-txt-4{
+        color:gray;
+        width: 100%;
+        line-height: 1.2;
+        margin-bottom: 3em;
+        font-size: 0.8em;
+    }
+    .cer-btn{
+        border-style:none;
+        width: 130px;
+        height: 50px;
+        border-radius: 50px;
+        background: #222222;
+        color:white;
+    }
+    .cer-margen{
+        margin-bottom: 150px;
+    }
+    .cer-margen-2{
+        margin-bottom: 50px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:990px) {
+
+    .cuatroElemenResp{
+        height: 1800px;
+        background: white;
+    
+        display:flex;
+        flex-direction: column;
+    }
+    .cer-img-1{
+    
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    .cer-txt-0{
+        width:100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cer-txt-1{
+        width:80%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .cer-txt-1b{
+        width:70%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .cer-txt-1{
+        color:gray;
+    }
+    .cer-txt-2{
+        font-size: 1.8em;
+        margin-top:0;
+        margin-bottom: 0em;
+        color:#111111;
+    }
+    .cer-txt-3{
+        font-size: 2em;
+        margin-top:0;
+        margin-bottom: 0.2em;
+        color:#111111;
+        line-height: 0.8;
+    }
+    .cer-txt-4{
+        color:gray;
+        width: 100%;
+        line-height: 1.2;
+        margin-bottom: 3em;
+        font-size: 0.8em;
+    }
+    .cer-btn{
+        border-style:none;
+        width: 130px;
+        height: 50px;
+        border-radius: 50px;
+        background: #222222;
+        color:white;
+    }
+    .cer-margen{
+        margin-bottom: 150px;
+    }
+    .cer-margen-2{
+        margin-bottom: 50px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cuatroElemenResp{
+        height: 1000px;
+        background: white;
+    
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .cer-img-1{
+    
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .cer-txt-0{
+        width:50%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cer-txt-1{
+        width:70%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .cer-txt-1b{
+        width:70%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .cer-txt-1{
+        color:gray;
+    }
+    .cer-txt-2{
+        font-size: 2em;
+        margin-top:0;
+        margin-bottom: 0em;
+        color:#111111;
+    }
+    .cer-txt-3{
+        font-size: 3em;
+        margin-top:0;
+        margin-bottom: -0.2em;
+        color:#111111;
+        line-height: 0.8;
+    }
+    .cer-txt-4{
+        color:gray;
+        width: 100%;
+        line-height: 2;
+        margin-bottom: 3.5em;
+    }
+    .cer-btn{
+        border-style:none;
+        width: 130px;
+        height: 50px;
+        border-radius: 50px;
+        background: #222222;
+        color:white;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

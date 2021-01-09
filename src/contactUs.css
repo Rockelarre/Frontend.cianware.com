@@ -1,0 +1,235 @@
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {} 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contactUs{
+
+        width: 100%;
+        height:850px;
+        color:white;
+        background-color: #111111;
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    }
+    .contact-img{
+        position: absolute;
+        width:100%;
+        height:820px;
+        object-fit: cover;
+        z-index: 0;
+        opacity: 20%;
+    }
+    .contact-text-1{
+        
+        width:90%;
+        letter-spacing: 0.6em;
+        position: relative;
+        top:20px;
+        z-index: 1;
+    }
+    .contact-text-2{
+        width:90%;
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        z-index: 1;
+    }
+    .contact-form{
+        width: 87%;
+        display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 1;
+          
+    }
+    .contact-txt{
+        width: 100%;
+        height:50px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        color:white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .contact-txtarea{
+        width: 100%;
+        height:130px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color:white;
+    }
+    .contact-btn{
+        width: 120px;
+        height:50px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contactUs{
+
+        width: 100%;
+        height:850px;
+        color:white;
+        background-color: #111111;
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    }
+    .contact-img{
+        position: absolute;
+        width:100%;
+        height:820px;
+        object-fit: cover;
+        z-index: 0;
+        opacity: 20%;
+    }
+    .contact-text-1{
+        
+        width:90%;
+        letter-spacing: 0.6em;
+        position: relative;
+        top:20px;
+        z-index: 1;
+    }
+    .contact-text-2{
+        width:90%;
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        z-index: 1;
+    }
+    .contact-form{
+        width: 87%;
+        display:flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 1;
+          
+    }
+    .contact-txt{
+        width: 100%;
+        height:50px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        color:white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .contact-txtarea{
+        width: 100%;
+        height:130px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color:white;
+    }
+    .contact-btn{
+        width: 120px;
+        height:50px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contactUs{
+
+        width: 100%;
+        height:730px;
+        color:white;
+        background-color: #111111;
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    }
+    .contact-img{
+        position: absolute;
+        width:100%;
+        height:700px;
+        object-fit: cover;
+        z-index: 0;
+        opacity: 20%;
+    }
+    .contact-text-1{
+        
+        letter-spacing: 0.6em;
+        position: relative;
+        top:20px;
+        z-index: 1;
+    }
+    .contact-text-2{
+        font-size: 2.5em;
+        letter-spacing: 0.2em;
+        z-index: 1;
+    }
+    .contact-form{
+        width: 87%;
+        display:flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          z-index: 1;
+          
+    }
+    .contact-txt{
+        width: 31%;
+        height:50px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        color:white;
+    }
+    .contact-txtarea{
+        width: 100%;
+        height:130px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color:white;
+    }
+    .contact-btn{
+        width: 120px;
+        height:50px;
+        border-radius: 0;
+        border:0.5px solid gray;
+        background: none;
+        margin-left: auto;
+        margin-right: auto;
+        color:white;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
